@@ -1,12 +1,15 @@
+import org.openkinect.freenect.*;
+import org.openkinect.freenect2.*;
 import org.openkinect.processing.*;
+import org.openkinect.tests.*;
 
 final int FRAGEMENT_SIZE = 2;         // default: 2
 final int MIN_THRESHOLD = 600;        // default: 600
 final int MAX_THRESHOLD = 1000;       // default: 800
-final int Y_FLOW = 2; // 1;           // default: 1
-final int Z_FLOW = 4; // 6;           // default: 6
-final boolean FULLSCREEN = true;
-final String COLOR_MODE = "INVERSE";  // options:  STATIC, LOOP
+final int Y_FLOW = 2;                 // default: 1
+final int Z_FLOW = 4;                 // default: 6
+final boolean FULLSCREEN = false;
+final String COLOR_MODE = "INVERSE";  // options:  STATIC, LOOP, INVERSE, LOOP_INVERSE
 
 KinectHandler kh;
 ColorHandler ch;

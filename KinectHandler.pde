@@ -1,5 +1,3 @@
-import org.openkinect.processing.*;
-
 class KinectHandler {
   private final int X_RES = 640;
   private final int Y_RES = 360;
