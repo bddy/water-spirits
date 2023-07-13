@@ -1,0 +1,114 @@
+:root {
+    --color-bg: ghostwhite;
+    --color-text: #303030;
+    --color-text-light: #808080;
+    --color-border: lightgray;
+
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 8rem;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--spacing-sm) var(--spacing-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header img {
+    height: 1.5rem;
+}
+
+nav {
+    padding: 0 var(--spacing-md);
+}
+
+.content {
+    flex-grow: 1;
+    padding: 0 var(--spacing-md) var(--spacing-lg) var(--spacing-md);
+    max-width: 720px;
+}
+
+.content p {
+    line-height: 1.5;
+}
+
+.content a {
+    padding: 0 .125rem;
+    color: var(--color-text);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: none;
+    background-color: var(--color-text);
+    color: var(--color-bg);
+}
+
+.content figure {
+    margin: var(--spacing-md) 0 0 0;
+}
+
+.content figure figcaption {
+    margin-top: var(--spacing-xs);
+    font-size: small;
+    color: var(--color-text-light);
+}
+
+.content figure img,
+.content figure video {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    border: 1px solid var(--color-border);
+}
+
+footer {
+    font-size: small;
+    background-color: white;
+    padding: 0 var(--spacing-md);
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li:not(:first-child) {
+    padding-left: var(--spacing-sm);
+    margin-left: var(--spacing-sm);
+    border-left: 1px solid var(--color-border);
+}
+
+footer a {
+    color: var(--color-text-light);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--color-text);
+}
