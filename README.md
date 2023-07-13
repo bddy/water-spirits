@@ -1,21 +1,7 @@
-# singoldsand-water-spirit
+# Water Spirits
 
-Interactive visuals for the singoldsand festival 2018 using microsoft kinect.
+The installation Water Spirits is a volunteer project for the Singoldsand Festival 2017 and 2018. The basic idea is to create audience-controlled music visuals using the Microsoft Kinect.
 
-## Starting the sketch
+To accomplish this, depth data from people dancing in front of the camera is processed to create the visuals, which are then projected onto a surface next to the stage. If the movements of the audience follow the music rhythmically, visuals are created accordingly.
 
-1. Install the latest version of [Processing](https://processing.org/download).
-2. Open the Project and install the library `Open Kinect for Processing 1.0` by Daniel Shiffman and Thomas Sanchez.
-3. Review the settings and set everything as needed.
-4. Play!
-
-## Disclaimer
-
-**This sketch has yet only been tested on Mac OS (intel) in combination with a Kinect version 1.**
-
-Last time it ran was also quite a while ago and a lot has changed. It may be (very) outdated. I couldn't even start it without errors on my current machine (apple silicon).
-
-## Troubleshooting
-
-- Using the current Version of Processing (4.0.1) i encountered the Error `NoClassDefFoundError: /com/sun/jna/Library`. [This fix](https://discourse.processing.org/t/processing-4-openkinect/32781/9) solved the issue.
-- This sketch looks like it is [broken](https://github.com/shiffman/OpenKinect-for-Processing/issues?q=is%3Aissue+is%3Aopen+m1) when run on a apple silicon machine.
+The first approach of projecting the image onto a waterfall was discarded, but the flowing character was kept. Hence the name Water Spirits.
